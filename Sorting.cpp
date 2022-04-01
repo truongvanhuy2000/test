@@ -100,6 +100,7 @@ void PrintMang(vector<int>& array)
         cout<< array[i]<< endl;
     }
 }
+int ass
 int main()
 {
     Sorting c_sort;
