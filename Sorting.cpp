@@ -65,21 +65,21 @@ class InsertionSorting
 class MergeSorting
 {
     public:
-    void MergeSort(vector<int>& array, int left, int middle, int right)
-    {
+    // void MergeSort(vector<int>& array, int left, int middle, int right)
+    // {
 
-    }
-    void divideArr(vector<int>& array, int left, int right)
-    {
-        if(left < right)
-        {
-            int i_middle_point= left + (right - left)/2;
-            divideArr(array, left, i_middle_point);
-            divideArr(array, i_middle_point + 1, right);
+    // }
+    // void divideArr(vector<int>& array, int left, int right)
+    // {
+    //     if(left < right)
+    //     {
+    //         int i_middle_point= left + (right - left)/2;
+    //         divideArr(array, left, i_middle_point);
+    //         divideArr(array, i_middle_point + 1, right);
             
-        }
-    }   
-}
+    //     }
+    // }   
+};
 class Sorting: public BubbleSorting, SelectionSorting, InsertionSorting
 {};
 void NhapMang(vector<int>& array)
@@ -106,6 +106,6 @@ int main()
     vector<int> v_mang = {1, 8, 5, 4, 7, 12, 2, 15, 6};
     c_sort.BubbleSort(v_mang);
     PrintMang(v_mang);
-    //NhapMang(v_mang);
+    ////NhapMang(v_mang);
     return 0;
 }
