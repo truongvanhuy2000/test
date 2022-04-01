@@ -109,3 +109,8 @@ int main()
     NhapMang(v_mang);
     return 0;
 }
+int feature()
+{
+    cout << " nothing " << endl;
+    return 0;
+}
