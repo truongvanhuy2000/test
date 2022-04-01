@@ -106,6 +106,6 @@ int main()
     vector<int> v_mang = {1, 8, 5, 4, 7, 12, 2, 15, 6};
     c_sort.BubbleSort(v_mang);
     PrintMang(v_mang);
-    ////NhapMang(v_mang);
+    NhapMang(v_mang);
     return 0;
 }
